@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сторінка таблиці">
+    <meta name="keywords" content="table, row, HTML">
+    <meta name="author" content="Arina Honcharenko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css"> <!-- стилі елементів сторінки -->
+    <title>Робота з таблицями</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Головна</a>
+            <a href="../pages/text_page.html">Робота з текстом</a>
+            <a href="../pages/lists_page.html">Списки</a>
+            <a href="../pages/hyperlink_page.html">Гіперпосилання</a>
+            <a href="../pages/images_page.html">Зображення</a>
+            <a href="../pages/table_page.html">Таблиця</a>
+            <a href="../pages/form_page.html">Форма</a>   
+        </nav>
+    </header>
+    <h1>Робота з таблицями</h1>
+    <table border="1">
+        <caption style="font-weight: bold; font-size: 20px;">Розрахунок відпускних</caption>
+        <thead>
+            <tr>
+                 <!-- Заголовки комірок -->
+                <th>№ п/п</th> 
+                <th colspan="2">Місяць, року</th> <!-- комірка об'єднує 2 комірки в собі -->
+                <th>Основна з/пл</th>
+                <th>Надбавка</th>
+                <th>Премія</th>
+                <th>Усього</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Тіло таблиці -->
+            <tr><!-- Рядок тіла таблиці -->
+                <td>1</td>
+                <td>Червень</td>
+                <td>2009</td>
+                <td>777,6</td>
+                <td></td>
+                <td></td>
+                <td>777,6</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Липень</td>
+                <td>2009</td>
+                <td>2363,0</td>
+                <td></td>
+                <td></td>
+                <td>2363,0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Серпень</td>
+                <td>2009</td>
+                <td>2208,6</td>
+                <td></td>
+                <td></td>
+                <td>2208,6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Вересень</td>
+                <td>2009</td>
+                <td>2250,5</td>
+                <td></td>
+                <td>470,0</td>
+                <td>2720,5</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Жовтень</td>
+                <td>2009</td>
+                <td>2190,0</td>
+                <td></td>
+                <td></td>
+                <td>2190,0</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Листопад</td>
+                <td>2009</td>
+                <td>2340,7</td>
+                <td>234,2</td>
+                <td></td>
+                <td>2574,9</td>
+            </tr>
+        </tbody>
+        <tfoot><!-- Підсумкова частина таблиці -->
+            <tr>
+                <td colspan="3">Разом за 6 місяців</td> <!-- комірка об'єднує 3 комірки в собі -->
+                <td>12 130,4</td>
+                <td>234,2</td>
+                <td>470,0</td>
+                <td>12 834,6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

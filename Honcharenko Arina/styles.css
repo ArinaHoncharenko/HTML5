@@ -1,0 +1,137 @@
+/* стилі основних елементів */
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+nav {
+    margin-block: 10px;
+    text-align: center;
+}
+li {
+    font-size: 18px; /* Розмір шрифту */
+    margin-bottom: 10px; /* Відступ між пунктами */
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+header {
+    background-color: rgb(230, 243, 254);
+    padding: 10px;
+    position: fixed; /* Фіксуємо хедер */
+    top: 0;
+    left: 0;
+    width: 100%; /*хедер на всю ширину */
+}
+a {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* стилі сторінки form_page.html */
+label{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], select, textarea{
+    width: 500px; /* Ширина полів вводу */
+    padding: 10px; /* Відступи всередині полів вводу */
+    margin: 10px; /* Відступ між полів вводу */
+    box-sizing: border-box; /* Загальна ширина, включаючи padding і border */
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="submit"] {
+    background-color: royalblue; /* Колір кнопки */
+    color: white; /* Колір тексту */
+    padding: 15px 20px; /* Відступи всередині */
+    margin: 20px;
+    border: none; /* Видаляємо рамку */
+    cursor: pointer; /* Зміна курсору при наведенні */
+    border-radius: 5px; /* Закруглені кути */
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* зміни в кнопці при навеенні */
+input[type="submit"]:hover, input[type="checkbox"]:hover {
+    background-color: rgb(106, 135, 223);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="radio"], input[type="checkbox"] {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+/* стилі сторінки images_page.html */
+.images-container {
+    display: flex; /* Встановлюємо контейнеру режим Flexbox */
+    justify-content: space-around; /* Рівномірне розміщення елементів по горизонталі */
+    flex-wrap: wrap; /* Розбиваємо рядок на нові рядки, якщо контейнер не вистачає */
+}
+.images-container figure {
+    text-align: center; /* Вирівнюємо зображення по центру */
+    margin: 10px; /* Простір між зображеннями */
+}
+figcaption{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* стилі сторінки table_page.html */
+dt {
+    font-size: 18px; /* Розмір шрифту */
+    margin-bottom: 10px; /* Відступ між пунктами */
+    font-weight: bold;
+}
+dd{
+    font-size: 18px; /* Розмір шрифту */
+    margin-bottom: 10px; /* Відступ між пунктами */
+
+}
+th, td, caption {
+    text-align: center; 
+    padding: 10px; /* відступи в комірці */
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* стилі сторінки text_page.html */
+p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-block: 20px;
+    line-height: 28px;
+    text-indent: 20px; /* Відступ першого рядка в пікселях */
+}
+mark{
+    background-color: rgb(255, 231, 192);
+}
+address{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+blockquote {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
